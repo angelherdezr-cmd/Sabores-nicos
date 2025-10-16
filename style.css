@@ -1,14 +1,4 @@
 
-.contenedor-menu {
-  width: 1920px;       /* o el ancho exacto que usaste */
-  height: 1080px;      /* opcional */
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;     /* evita que se vea contenido fuera */
-  transform-origin: top left;
-  
-}
-
 html{
     height: 100%;
     margin:0%;
@@ -134,4 +124,5 @@ footer:hover{
     transition: 0.3s ease;
     cursor: pointer;
 }
+
 
