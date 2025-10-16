@@ -1,0 +1,173 @@
+html{
+    height: 100%;
+    margin:0%;
+    padding: 0%;
+    background-image: url(Img/Fondo.web.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    size: 100px;
+}
+
+body{
+    height: 100%;
+    margin:0%;
+    padding: 0%;
+    overflow: hidden;
+
+
+}
+
+
+a {
+    color: blue;
+    font-size: 30px;
+}
+
+.Nombre { 
+    color: #003d50;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    left: 400px;
+    font-family: "Outfit", sans-serif;
+    
+
+}
+
+.SubT_1 {
+    color: #6c63ff;
+    font-size: 30px;
+    position: relative;
+    left: 400px;
+     font-family: "Outfit", sans-serif;
+}
+
+.SubT_2 {
+    color: #003d50;
+    position:relative;
+    left: 1270px;
+    top: -380px;
+    font-size: 30px;
+    max-width: 100%;
+    font-family: "Roboto Slab", sans-serif;
+}
+.Text_1 {
+    position: relative;
+    left:1050px ;
+    top: -400px;
+    font-size: 22px;
+}
+.SubT_3 {color:#003d50 ;
+    position:relative ;
+    left: 400px; ;
+    top: -230px;
+    font-size: 25px;
+    font-family: "Roboto Slab", sans-serif;
+
+}
+
+.Text_2{
+    position:relative ;
+    left: 100px;
+    top: -230px;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px;
+    max-width: 800px;
+
+}
+.SubT_4 {
+    color: #003d50;
+    position: relative;
+    left: 1400px;
+    top: -460px;
+    font-size: 25px;
+    font-family: "Roboto Slab", sans-serif;
+
+}
+.Text_3 {
+    position: relative;
+    left: 1050px;
+    top: -480px;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.Text_1, .Text_2, .Text_3{
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    color: #532424;
+    z-index: 2;
+}
+.contenedor {
+  position: relative;
+  top: -1000px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.line-arriba {
+  position: absolute;
+  top: 190px;
+  left: 958px;
+  width: 47.1%;
+  height: 2px;
+}
+
+.line-abajo {
+  position: absolute;
+  top: 200px;
+  left: 78px;
+  width:46%;
+  height: 2px;
+}
+
+.line-izquierda {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  width: 2px;
+  height: 770px;
+}
+.line-abajo, .line-arriba, .line-izquierda{
+    background-color: rgb(99, 43, 43);
+}
+
+
+.Text_1:hover,.Text_2:hover,.Text_3:hover {
+  color: #3498db;         
+  transform:translateX(-20px); 
+  transform: scale(1.060);
+  transition: 0.3s ease; 
+  cursor: pointer;
+  }   
+
+img{
+    border-radius: 130px;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: -100px;
+  width: 30%;
+  background-color: rgba(88, 61, 61, 0.6); 
+  color: white;
+  text-align: center;
+  padding: 0px;
+}
+footer:hover{
+    color: auto;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
